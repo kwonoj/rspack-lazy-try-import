@@ -18,6 +18,9 @@ const config = {
   entry: {
     main: "./src/index",
   },
+  experiments: {
+    lazyCompilation: true,
+  },
   plugins: [new HtmlWebpackPlugin()],
   output: {
     clean: true,
